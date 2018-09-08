@@ -176,9 +176,12 @@ nav ul li:hover, nav ul li.active {
 }
 
 .section:first-of-type {
-    padding-top: 140px;
+  padding-top: 140px;
 }
 
+.section:nth-last-of-type(2) {
+  padding-bottom: 120px;
+}
 
 #footer {
   padding: 8px 0;
@@ -303,8 +306,6 @@ nav ul li:hover, nav ul li.active {
   }
 }
 
-
-
 /* mid size (tablets, landscapes) */
 @media only screen and (max-width: 679px) {
   nav { font-size:11px; }
@@ -317,6 +318,19 @@ nav ul li:hover, nav ul li.active {
 /* tiny size (phones) */
 @media only screen and (max-width: 380px) {
   nav ul li { min-width:90px; line-height:20px; }
+  
+  .section:first-of-type {
+    padding-top: 60px;
+    padding-bottom: 110px;
+  }
+
+  .section:nth-last-of-type(2) {
+    padding-bottom: 40px;
+  }
+
+  #work {
+    padding-bottom: 140px;
+  }
 }
 
 /* anything not desktop */
@@ -325,7 +339,6 @@ nav ul li:hover, nav ul li.active {
 	.container h2 { font-size: 24px; }
 	.container h3 { font-size: 20px; }
 	.container h4 { font-size: 18px; }
-
 
   .section { padding:130px 0; }
   .sectiondivider {
@@ -362,6 +375,10 @@ nav ul li:hover, nav ul li.active {
 
 .contact-links > a {
   padding: 1em;
+}
+
+.contact-links i.fa {
+  margin-bottom: 15px;
 }
 
 #work i.fa {
