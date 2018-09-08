@@ -16,7 +16,7 @@ markdown: kramdown
 ### content configuration ###
 title:       "Brandon Johnson"
 keywords:    "SinglePaged, jekyll, template, github, single page, Brandon, Brandon Johnson, taylus, legacy.codes"
-description: "A single-page template for Jekyll based blogs (like what you'd use on github pages!)"
+description: "The personal homepage for Brandon Johnson, software developer."
 source_link: "https://github.com/taylus/SinglePaged"
 favicon:     "img/favicon.ico"
 touch_icon:  "img/apple-touch-icon.png"
