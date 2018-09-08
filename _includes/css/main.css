@@ -336,6 +336,11 @@ nav ul li:hover, nav ul li.active {
   margin-bottom: 4px;
 }
 
+#work a {
+  display: inline-block;
+  text-decoration: none;
+}
+
 #about .subtlecircle {
   animation: pulse 2s infinite;
 }
