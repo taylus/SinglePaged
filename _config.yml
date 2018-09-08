@@ -14,10 +14,10 @@ markdown: kramdown
 
 
 ### content configuration ###
-title:       "SinglePaged - Simple Jekyll template"
-keywords:    "SinglePaged, jekyll, template, github, blog, single page"
+title:       "Brandon Johnson"
+keywords:    "SinglePaged, jekyll, template, github, single page, Brandon, Brandon Johnson, taylus, legacy.codes"
 description: "A single-page template for Jekyll based blogs (like what you'd use on github pages!)"
-source_link: "https://github.com/t413/SinglePaged"
+source_link: "https://github.com/taylus/SinglePaged"
 favicon:     "img/favicon.ico"
 touch_icon:  "img/apple-touch-icon.png"
 google_analytics_key: ## (blank to disable)
@@ -27,11 +27,12 @@ google_analytics_key: ## (blank to disable)
 colors:
   black:     '#111111'
   white:     '#f8f8f8'
-  blue:      '#49a7e9'
+  blue:      '#173773'
   green:     '#9bcf2f'
-  purple:    '#c869bf'
+  purple:    '#2d1a77'
   orange:    '#fab125'
-  turquoise: '#0fbfcf'
+  turquoise: '#0c6b61'
+  red:       '#960f23'
 
 kramdown:
   auto_ids:  false
