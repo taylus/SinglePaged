@@ -313,6 +313,10 @@ nav ul li:hover, nav ul li.active {
     min-width:60px;
     line-height:40px;
   }
+
+  .section:first-of-type {
+    padding-top: 90px;
+  }
 }
 
 /* tiny size (phones) */
