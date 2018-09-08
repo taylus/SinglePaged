@@ -18,7 +18,7 @@ title:       "Brandon Johnson"
 keywords:    "SinglePaged, jekyll, template, github, single page, Brandon, Brandon Johnson, taylus, legacy.codes"
 description: "The personal homepage for Brandon Johnson, software developer."
 source_link: "https://github.com/taylus/SinglePaged"
-favicon:     "img/favicon.ico"
+favicon:     "favicon.ico"
 touch_icon:
 google_analytics_key: ## (blank to disable)
 
