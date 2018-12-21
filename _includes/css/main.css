@@ -325,7 +325,9 @@ nav ul li:hover, nav ul li.active {
 }
 
 .horiz-links > a {
+  width: 130px;
   padding: 1em;
+  display: inline-block;
 }
 
 .horiz-links i.fa {
