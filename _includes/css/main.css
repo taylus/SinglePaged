@@ -320,15 +320,15 @@ nav ul li:hover, nav ul li.active {
   }
 }
 
-.contact-links {
+.horiz-links {
   text-align: center;
 }
 
-.contact-links > a {
+.horiz-links > a {
   padding: 1em;
 }
 
-.contact-links i.fa {
+.horiz-links i.fa {
   margin-bottom: 15px;
 }
 
