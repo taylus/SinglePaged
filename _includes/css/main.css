@@ -353,3 +353,7 @@ nav ul li:hover, nav ul li.active {
   70% { box-shadow: 0 0 0 20px rgba(128, 0, 0, 0); }
   100% { box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); }
 }
+
+#about .help {
+  margin: 0;
+}
