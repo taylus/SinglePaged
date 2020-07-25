@@ -1,0 +1,76 @@
+---
+---
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="combo.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Raleway:400,300,700">
+    <style>
+        .screenshot {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        .small {
+            width: 300px;
+        }
+
+        .gbdev, .gbdev a {
+            background-color: #346856;
+            color: #e0f8d0;
+        }
+
+        .gbdev {
+            padding-top: 5em;
+            padding-bottom: 5em;
+        }
+    </style>
+</head>
+<body>
+    <div class="section">
+        <div class="container center">
+            <img src="img/betterwealth.png" alt="BetterWealth logo"/>
+            <p>
+                I helped my best friend, the CTO of BetterWealth, develop
+                <a href="https://betterwealth.com/assessment">The Better Wealth Assessment</a> --
+                an interactive investment calculator to show if your finances are in balance for retirement.
+            </p>
+            <p>
+                We worked iteratively using <a href="https://codepen.io">CodePen</a> and <a href="https://pages.github.com/">GitHub Pages</a>
+                for collaboration, <a href="https://www.chartjs.org/">Chart.js</a> for graphing, and the <a href="https://bulma.io/">Bulma CSS framework</a> to make it mobile responsive.
+            </p>
+            <img src="img/betterwealth-assessment-screenshot.png" class="screenshot" alt="screenshot"/>
+            <hr/>
+            <img src="img/and-asset-calculator-screenshot.png" class="screenshot" alt="screenshot"/>
+        </div>
+    </div>
+    <div class="section gbdev">
+        <div class="container center" id="gameboy-dev">
+            <h1>Game Boy Development</h1>
+            <p>
+                I grew up playing early Nintendo consoles -- they're what got me into programming in the first place.<br/><br/>
+                Experimenting with modding and developing on them has taught me a lot about retro gaming and computing
+                and has led me to work with Arduino, breadboards, and other low-level electronics.
+            </p>
+            <p>
+                <img class="screenshot small" style="margin-top: -20px" src="https://raw.githubusercontent.com/taylus/gameboy-graphics/master/screenshots/running_on_gbc.jpg" alt="gameboy screenshot">
+            </p>
+            <ul>
+                <li><a href="https://github.com/taylus/gbdasm">gbdasm</a>, a Game Boy disassambler</li>
+                <li><a href="https://github.com/taylus/gbdotnet">gbdotnet</a>, a Game Boy emulator</li>
+                <li><a href="https://github.com/taylus/gameboy-graphics">Game Boy graphics</a> with a <a href="https://legacy.codes/gameboy-graphics/GBGraphics.StaticSite/">live demo!</a></li>
+                <li>A <a href="https://github.com/taylus/gb-rom-viewer">Game Boy ROM viewer</a></li>
+                <li><a href="https://github.com/taylus/gameboy-dev">Game Boy development/demo ROMs</a></li>
+            </ul>
+        </div>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="/">Back</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

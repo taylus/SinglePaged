@@ -89,7 +89,20 @@ $(document).ready(function (){
             	$('html,body').animate({scrollTop: targetHight - 170}, 800, "easeInOutExpo");
             });
         }
-	});
+    });
+    
+    $('#portfolio').hover(
+       function(){ 
+            $(this).removeClass("fa-folder");
+            $(this).addClass("fa-folder-open");
+            $(this).css("margin-left", "9px");
+        },
+       function(){
+            $(this).removeClass("fa-folder-open");
+            $(this).addClass("fa-folder");
+            $(this).css("margin-left", "");
+        }
+    );
 
 });
 
