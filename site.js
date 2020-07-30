@@ -91,7 +91,7 @@ $(document).ready(function (){
         }
     });
     
-    $('#portfolio').hover(
+    $('#projects').hover(
        function(){ 
             $(this).removeClass("fa-folder");
             $(this).addClass("fa-folder-open");
